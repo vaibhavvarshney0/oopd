@@ -1,0 +1,23 @@
+creategroup admin1 group1
+createuser A 1234 cfc vbn
+createuser A 1234 cfc vbn
+createuser B 9874 cfc vbn
+verify masteradmin
+requesttoadd A group1
+verify admin1
+requesttoadd admin1 A group1
+addtogroup admin1 B group2
+creategroup admin1 group2
+addtogroup admin1 B group2
+send B group2 hi i am B
+view B group2
+addtogroup admin1 A group2
+send A group2 cool hi! B
+view B group2
+reply B group2 1 hi A
+shcdbvh  cbbsbcj   c  asbnbchjba as cnbdhkc n c bhjbn n
+view A group2
+addtogroup
+view A group2
+share A group2 group1 0
+view A group1
