@@ -1,3 +1,5 @@
+//Main class
+
 public class Main
 {
     public static void main(String args[])
@@ -5,7 +7,7 @@ public class Main
         Team team1=new Team();
         Team team2=new Team();
 
-
+//20 runs of the game 
         for(int i=0;i<20;i++)
         {
           team1.fight(team2);
